@@ -34,7 +34,11 @@ Crie uma variável de ambiente chamada:
 gestaoPedidosConnection
 
 #Valor da variável: (Substituir **SERVER_NAME / **LOGIN / **PASSWORD - Normalmente localizados ao abrir o SQL Server conforme imagem abaixo.)
+Exemplo 1)
 Server=<SERVER_NAME>;Initial Catalog=GestaoPedidosDb;User ID=<LOGIN>;Password=<PASSWORD>;Persist Security Info=False;MultipleActiveResultSets=True;application name=gestaopedidos;Encrypt=false
+
+Exemplo 2)
+Server=<SERVER_NAME>;Database=GestaoPedidosDb;Integrated Security=True;TrustServerCertificate=True;
 ```
 <br>
 <p align="left">
