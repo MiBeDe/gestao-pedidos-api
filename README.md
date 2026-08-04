@@ -11,6 +11,7 @@ git clone https://github.com/MiBeDe/gestao-pedidos-api.git
 dotnet restore
 
 # Executar
+# Dentro da pasta do projeto acesse: src/GestaoPedidos.Api e execute o comando abaixo
 dotnet run
 ```
 <br>
