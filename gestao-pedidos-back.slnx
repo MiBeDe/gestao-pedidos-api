@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/01 - Web/">
+    <Project Path="src/GestaoPedidos.Api/GestaoPedidos.Api.csproj" Id="d4ed60a5-ca7e-4c6a-886b-532ea69af384" />
+  </Folder>
+  <Folder Name="/src/02 - Application/">
+    <Project Path="src/GestaoPedidos.Application/GestaoPedidos.Application.csproj" Id="05f94882-4597-4a73-8dd0-b2c8d5760c0b" />
+  </Folder>
+  <Folder Name="/src/03 - Infrastructure/">
+    <Project Path="src/GestaoPedidos.Infrastructure/GestaoPedidos.Infrastructure.csproj" Id="8b0cb18d-a458-4289-af14-5ad1a36e9ab1" />
+  </Folder>
+  <Folder Name="/src/04 - Domain/">
+    <Project Path="src/GestaoPedidos.Domain/GestaoPedidos.Domain.csproj" Id="73761a37-92d4-4fb2-849b-f91247a972f6" />
+  </Folder>
+  <Folder Name="/src/05 - CrossCutting/">
+    <Project Path="src/GestaoPedidos.CrossCutting.IoC/GestaoPedidos.CrossCutting.IoC.csproj" Id="6286c80a-01d1-4572-82db-989b89063997" />
+    <Project Path="src/GestaoPedidos.CrossCutting/GestaoPedidos.CrossCutting.csproj" Id="6e8736b7-f154-4fac-a01e-9902034b8c0c" />
+  </Folder>
+</Solution>

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="14.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GestaoPedidos.CrossCutting\GestaoPedidos.CrossCutting.csproj" />
+  </ItemGroup>
+
+</Project>
