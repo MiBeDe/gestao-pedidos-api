@@ -22,6 +22,7 @@
             Realiza o cadastro do Cliente que será proprietário de pedido.
             </summary>
             <param name="cliente"></param>
+            <param name="cancellationToken"></param>
             <returns></returns>
         </member>
         <member name="M:GestaoPedidos.Api.V1.Controllers.PedidoController.ObterPedidos(GestaoPedidos.Application.ViewModels.ParametrosPaginacaoViewModel,System.Threading.CancellationToken)">
@@ -37,6 +38,7 @@
             Realiza o cadastro de um novo pedido.
             </summary>
             <param name="pedido"></param>
+            <param name="cancellationToken"></param>
             <returns></returns>
         </member>
         <member name="M:GestaoPedidos.Api.V1.Controllers.PedidoController.AlterarStatus(System.Int32,System.Int32,System.Threading.CancellationToken)">

@@ -34,7 +34,7 @@ app.UseCustomizedCors();
 app.UseCustomizedMvc();
 
 // Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment())
 {
     app.UseHttpsRedirection();
 }
@@ -55,5 +55,3 @@ finally
 {
     Log.CloseAndFlush();
 }
-
-app.Run();
